@@ -63,6 +63,7 @@ li {
   text-align: center;
 } */
 
+/* Color key words
 .container {
   border: 1px solid black;
   width: 500px;
@@ -89,4 +90,35 @@ li {
   margin: 10%;
   border-radius: 10px;
   text-align: center;
-} 
+}  */
+.container {
+  border: 1px solid black;
+  font-size: 30px;
+  margin: 10%;
+  padding: 8%;
+  text-align: center;
+  width: 500px;
+}
+.one {
+  background-color: hsl(188 97% 28%);
+  border-radius: 15px;
+  font-size: 30px;
+  padding: 1%;
+  margin: 5% 0;
+}
+
+.two {
+  background-color: hsl(321 47% 57% /0.6);
+  margin: 5% 0;
+  border-radius: 15px;
+  font-size: 30px;
+  padding: 1%;
+}
+
+.three {
+  background-color: hsl(174 77% 31%);
+  border-radius: 15px;
+  font-size: 30px;
+  padding: 1%;
+  margin: 5% 0;
+}
