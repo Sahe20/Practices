@@ -62,3 +62,31 @@ li {
   border-radius: 10px;
   text-align: center;
 } */
+
+.container {
+  border: 1px solid black;
+  width: 500px;
+  font-size: 40px;
+  background-image: url(calm.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.bl {
+  background-color: rgba(2, 121, 139, 0.61);
+  margin: 10%;
+  border-radius: 10px;
+  text-align: center;
+}
+.pu {
+  background-color: rgba(62, 12, 170, 0.603);
+  margin: 10%;
+  border-radius: 10px;
+  text-align: center;
+} 
+.gr {
+  background-color: rgba(0, 128, 0, 0.753);
+  margin: 10%;
+  border-radius: 10px;
+  text-align: center;
+} 
