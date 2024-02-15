@@ -24,6 +24,7 @@ p {
 li {
   font-size: 80%;
 } */
+/* Opacity
 .opc {
   width: 200px;
   border: 5px solid rebeccapurple;
@@ -36,4 +37,22 @@ li {
   background-image: url(calm.jpeg);
   border: 2px solid black;
   margin: 50px;
+} */
+.container {
+  border: 1px solid black;
+  width: 500px;
+  font-size: 40px;
+}
+.bl {
+  background-color: blue;
+  margin: 10%;
+}
+.pu {
+  background-color: purple;
+  margin: 10%;
+}
+.gr {
+  background-color: green;
+  margin: 10%;
+
 }
