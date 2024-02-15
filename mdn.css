@@ -38,6 +38,7 @@ li {
   border: 2px solid black;
   margin: 50px;
 } */
+/* 
 .container {
   border: 1px solid black;
   width: 500px;
@@ -46,13 +47,18 @@ li {
 .bl {
   background-color: blue;
   margin: 10%;
+  border-radius: 10px;
+  text-align: center;
 }
 .pu {
   background-color: purple;
   margin: 10%;
+  border-radius: 10px;
+  text-align: center;
 }
 .gr {
   background-color: green;
   margin: 10%;
-
-}
+  border-radius: 10px;
+  text-align: center;
+} */
