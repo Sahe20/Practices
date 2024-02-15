@@ -1,0 +1,22 @@
+/* This is was used for learning line-heights
+p {
+    margin: 50px;
+    background-image: repeating-linear-gradient(to top,
+    lightskyblue 0 2px,
+    transparent 10px 1lh
+    );
+} */
+
+
+.container {
+    width: 400px;
+    border: 5px solid rebeccapurple;
+  }
+  .px {
+    width: 400px;
+    border: 5px solid red;
+  }
+  .percentage {
+    width: 80%;
+    border: 5px solid black;
+  }
