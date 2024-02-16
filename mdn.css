@@ -154,7 +154,7 @@ body {
   background-repeat: no-repeat;
   background-position: right center;
 } */
-
+/* Strings and identifiers in css 
 .box {
   width: 300px;
   padding: 4em;
@@ -177,4 +177,18 @@ content: "Hey! I'm a box written in css!";
   color: white;
   letter-spacing: .5em;
   text-align: center;
+} */
+
+h1 {
+  padding: 0.5px;
+  text-align: center;
+  width: 400px;
+}
+.box {
+  background-color: skyblue;
+  padding: 1px;
+  border-radius: 30px;
+  border: 5px solid rebeccapurple;
+  width: calc(65% - 10px);
+  color: rebeccapurple;
 }
