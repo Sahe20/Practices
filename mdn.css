@@ -91,6 +91,7 @@ li {
   border-radius: 10px;
   text-align: center;
 }  */
+/* Hue practice  section 
 .container {
   border: 1px solid black;
   font-size: 30px;
@@ -121,4 +122,27 @@ li {
   font-size: 30px;
   padding: 1%;
   margin: 5% 0;
+} */
+
+body {
+  border: 2px solid black;
+}
+.calm {
+  background-image: url(calm.jpeg);
+  padding: 10%;
+  background-position: center;
+  height: 10lvh;
+  margin: 10%;
+
+}
+.gradient {
+  background-image: linear-gradient(90deg, rgb(119 0 255 / 39%), rgb(0 212 255 / 100%));
+  padding: 20%;
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 10%;
+  width: 20%;
+  border-radius: 10%;
+  height: 2lvh;
 }
