@@ -146,11 +146,35 @@ body {
   border-radius: 10%;
   height: 2lvh;
 } */
-
+/* positioning in css 
 .box {
   height: 300px;
   width: 400px;
   background-image: url(calm.jpeg);
   background-repeat: no-repeat;
   background-position: right center;
+} */
+
+.box {
+  width: 300px;
+  padding: 4em;
+  border-radius: .5em;
+  border: 5px solid rebeccapurple;
+  background-color: lightblue;
+  opacity:  .8;
+}
+
+.text {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  opacity: .8;
+  color: color-mix(in hsl increasing hue, royalblue  50%, blue 30%);
+}
+.box::after {
+content: "Hey! I'm a box written in css!";
+  display: block;
+  font-size: 20px;
+  color: white;
+  letter-spacing: .5em;
+  text-align: center;
 }
