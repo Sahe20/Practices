@@ -221,10 +221,17 @@ h1 {
 .small .big-class{
   font-size: 24px;
 } */
-
+/* Target takes precedence over inheritance
 #parent {
   color: red;
 }
 .child {
   color: blue;
+} */
+
+.first {
+  color: yellow;
+}
+.second {
+  color: red;
 }
