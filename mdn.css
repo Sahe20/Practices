@@ -192,8 +192,15 @@ h1 {
   width: calc(65% - 10px);
   color: rebeccapurple;
 } */
-
+/* Specificity among class selectors
 .subsection {
+  color: blue;
+}
+.main .the {
+  color: red;
+} */
+
+#subsection {
   color: blue;
 }
 .main .the {
