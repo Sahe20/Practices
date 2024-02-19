@@ -206,11 +206,18 @@ h1 {
 .main .the {
   color: red;
 } */
-
+/* id+class takes precedence over id for specificity
 #subsection {
   color: red;
   background-color: yellow;
 }
 .main #subsection {
   color: blue;
+} */
+
+.small.big-class {
+  font-size: 12px;
+}
+.small .big-class{
+  font-size: 24px;
 }
