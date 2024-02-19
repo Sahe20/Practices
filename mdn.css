@@ -214,10 +214,17 @@ h1 {
 .main #subsection {
   color: blue;
 } */
-
+/* Same specificity with different classes
 .small.big-class {
   font-size: 12px;
 }
 .small .big-class{
   font-size: 24px;
+} */
+
+#parent {
+  color: red;
+}
+.child {
+  color: blue;
 }
