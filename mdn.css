@@ -199,10 +199,18 @@ h1 {
 .main .the {
   color: red;
 } */
-
+/* ID selector takes precedence over class selector
 #subsection {
   color: blue;
 }
 .main .the {
   color: red;
+} */
+
+#subsection {
+  color: red;
+  background-color: yellow;
+}
+.main #subsection {
+  color: blue;
 }
