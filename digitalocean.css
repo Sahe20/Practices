@@ -3,6 +3,7 @@ body {
     background-color: hsl(0, 0%, 100%);
     color: hsl(0, 0%, 0%);
     line-height: 1.75;
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
 }
 
 .content-width {
