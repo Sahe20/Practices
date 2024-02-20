@@ -37,3 +37,20 @@ h1, h2, h3 {
 h2, h3 {
     color: hsl(280, 50%, 50%);
 }
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+h3 {
+    font-size: 1.75rem;
+    font-style: italic;
+    font-weight: 400;
+}
+p {
+    font-size: 1.125rem;
+}
