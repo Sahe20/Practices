@@ -1,9 +1,12 @@
+* {
+    outline: 2px solid red;
+}
 body {
     margin: 0;
     background-color: hsl(0, 0%, 100%);
     color: hsl(0, 0%, 0%);
     line-height: 1.75;
-    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+    font-family: "Open Sans", "PT Sans", Calibri, Tahoma, sans-serif;
 }
 
 .content-width {
