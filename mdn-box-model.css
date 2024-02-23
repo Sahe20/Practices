@@ -1,15 +1,14 @@
 p, ul {
     border: 2px solid rebeccapurple;
-    padding: 1em;
 }
-.block, li {
+span, li {
     border: 2px solid blue;
-    padding: .25em;
 }
 ul {
     display: flex;
     list-style: none;
+    padding: 0;
 }
-.block {
-    display: block;
+.inline {
+    display: inline;
 }
