@@ -12,7 +12,7 @@ ul {
 .inline {
     display: inline;
 } */
-
+/* Standard box model 
 .box {
     width: 350px;
     height: 150px;
@@ -20,4 +20,17 @@ ul {
     padding: 25px;
     border: 5px solid red;
     text-align: center;
+} */
+
+.box {
+    box-sizing: border-box;
+} 
+.box {
+    width: 350px;
+    inline-size: 350px;
+    height: 150px;
+    block-size: 150px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid black;
 }
