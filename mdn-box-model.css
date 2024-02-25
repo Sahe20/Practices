@@ -46,6 +46,7 @@ ul {
 .alternate {
     box-sizing: border-box;
 } */
+/* Margin in CSS 
 .container {
     border: 5px solid blue;
     padding: 75px;
@@ -58,4 +59,23 @@ ul {
     margin: -90px 20px 20px 20px;
     text-align: center;
     background-color: rgb(180, 177, 176);
+} */
+
+.container {
+    border: 5px solid blue;
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    padding-bottom: 25px;
+    margin: 20px;
+}
+.one {
+    border: 3px solid rgb(128, 5, 250);
+    padding: 10px;
+    background-color: gray;
+}
+.two {
+    border: 3px solid rgb(125, 5, 245);
+    padding: 10px;
+    background-color: gray;
 }
