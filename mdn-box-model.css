@@ -123,7 +123,7 @@ span {
     background-color: rgba(0, 255, 255, 0.699);
     margin: 20px;
 } */
-
+/* Using display: inline block
 .container {
     border: 3px solid rebeccapurple;
 }
@@ -133,4 +133,29 @@ span {
     background-color: rgba(0, 255, 255, 0.699);
     margin: 20px;
     display: inline-block;
+} */
+/* * {
+    box-sizing: border-box;
+} */
+.container {
+    border: 1px solid  black;
+    padding: 8px;
+}
+.link-list {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    list-style-type: none;
+    display: flex;
+}
+.link-list a {
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+    padding: 1em 2em;
+    margin-left: 15px;
+}
+.link-list a:hover {
+    background-color: rebeccapurple;
+    color: black;
 }
