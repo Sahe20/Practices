@@ -79,7 +79,7 @@ ul {
     padding: 10px;
     background-color: gray;
 } */
-
+/* Shorthand & Longhand borders
 .container {
     border-right: 1px solid black;
     margin-right: 300px;
@@ -97,4 +97,19 @@ ul {
     margin-right: 40px;
     padding: 24px;
     background-color: rgba(161, 160, 160, 0.692);
+} */
+
+.container {
+    border: 5px solid blue;
+    padding: 35px;
+    margin: 30px;
+}
+.box {
+    border: 5px solid rebeccapurple;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 40px;
+    background-color: rgba(172, 170, 170, 0.692);
+    font-size: 1.5em;
+    text-align: center;
 }
