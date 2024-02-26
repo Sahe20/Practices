@@ -98,7 +98,7 @@ ul {
     padding: 24px;
     background-color: rgba(161, 160, 160, 0.692);
 } */
-
+/* Padding in CSS
 .container {
     border: 5px solid blue;
     padding: 35px;
@@ -112,4 +112,14 @@ ul {
     background-color: rgba(172, 170, 170, 0.692);
     font-size: 1.5em;
     text-align: center;
+} */
+
+.container {
+    border: 3px solid rebeccapurple;
+}
+span {
+    border: 2px solid blue;
+    padding: 20px;
+    background-color: rgba(0, 255, 255, 0.699);
+    margin: 20px;
 }
