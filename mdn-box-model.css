@@ -166,7 +166,7 @@ span {
     width: 100px;
     margin: 0 auto;
 } */
-
+/* Margin collapsing from css-trick
 h2 {
     border: 5px solid rebeccapurple;
     width: 250px;
@@ -180,4 +180,26 @@ p {
     text-align: center;
     margin: 10px 0 0 0;
     padding: 5px;
+} */
+
+body {
+    background-color: rgba(160, 155, 155, 0.849);
+    margin: 20px;
+    margin-top: 0x;
+    padding: 20px;
+}
+div {
+    background-color: white;
+    margin: 0;
+}
+h2 {
+    background-color: gray;
+    height: 50px;
+    padding: 20px;
+    font-size: 2em;
+}
+p {
+    padding-bottom: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
