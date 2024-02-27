@@ -203,7 +203,7 @@ p {
     padding-left: 20px;
     padding-right: 20px;
 } */
-
+/* Div default as a block-level element
 div {
     margin: 50px;
     width: 300px;
@@ -221,4 +221,8 @@ div {
 .cu {
     background-color: rgb(76, 98, 107);
     padding: 50px;
+} */
+
+.highlight {
+    background-color: yellow;
 }
