@@ -222,7 +222,25 @@ div {
     background-color: rgb(76, 98, 107);
     padding: 50px;
 } */
-
+/* Span default as a inline-level element
 .highlight {
     background-color: yellow;
-}
+} */
+
+body {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  p {
+    background: rgb(255 84 104 / 30%);
+    border: 2px solid rgb(255 84 104);
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  span {
+    background: white;
+    border: 1px solid black;
+  }
+  
