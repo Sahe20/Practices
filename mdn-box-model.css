@@ -181,7 +181,7 @@ p {
     margin: 10px 0 0 0;
     padding: 5px;
 } */
-
+/* Negative margin with css-trick
 body {
     background-color: rgba(160, 155, 155, 0.849);
     margin: 20px;
@@ -202,4 +202,23 @@ p {
     padding-bottom: 400px;
     padding-left: 20px;
     padding-right: 20px;
+} */
+
+div {
+    margin: 50px;
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+.intro {
+    background-color: skyblue;
+    padding: 50px;
+}
+.mc {
+    background-color: rgba(61, 61, 97, 0.904);
+    padding: 50px;
+}
+.cu {
+    background-color: rgb(76, 98, 107);
+    padding: 50px;
 }
