@@ -160,9 +160,24 @@ span {
     background-color: rebeccapurple;
     color: black;
 } */
-
+/* Auto and centering
 .container {
     border: 3px solid rebeccapurple;
     width: 100px;
     margin: 0 auto;
+} */
+
+h2 {
+    border: 5px solid rebeccapurple;
+    width: 250px;
+    text-align: center;
+    margin: 0 0 20px 0;
+    padding: 5px;
+}
+p {
+    border: 5px solid red;
+    width: 250px;
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding: 5px;
 }
