@@ -1,7 +1,7 @@
 /* * {
     outline: 2px solid red;
 } */
-body {
+/* body {
     margin: 0;
     background-color: hsl(0, 0%, 100%);
     color: hsl(0, 0%, 0%);
@@ -56,4 +56,19 @@ h3 {
 }
 p {
     font-size: 1.125rem;
-}
+} */
+
+p {
+    border: 3px dotted black;
+    padding: 15px;
+    background-color: rgba(167, 165, 165, 0.199);
+  }
+span {
+        display: inline; 
+        width: 100px;
+        height: 160px;
+        padding: 18px;
+        border: 2px dotted rgb(235, 135, 157);
+        margin-right: 10px;
+  }
+  
