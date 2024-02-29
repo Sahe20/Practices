@@ -1,5 +1,5 @@
 .container {
-    /*  display: flex; */
+    display: flex;
     margin-right: 300px;
     margin-left: 100px;
     text-align: center; 
