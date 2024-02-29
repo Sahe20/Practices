@@ -57,7 +57,7 @@ h3 {
 p {
     font-size: 1.125rem;
 } */
-
+/* Display: block, inline, inline-block
 p {
     border: 3px dotted black;
     padding: 15px;
@@ -71,4 +71,4 @@ span {
         border: 2px dotted rgb(235, 135, 157);
         margin-right: 10px;
   }
-  
+   */
