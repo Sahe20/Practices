@@ -228,10 +228,38 @@ h1 {
 .child {
   color: blue;
 } */
-
+/* 
 .first {
   color: yellow;
 }
 .second {
   color: red;
+} */
+
+nav > ul {
+  display: flex;
+  border: 2px solid;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: auto;
+}
+.one, .two, .four {
+  border: 3px solid skyblue;
+  padding: 10px;
+  background-color: rgba(170, 201, 211, 0.699);
+  border-radius: 10px;
+  flex-grow: 1;
+  text-align: center;
+  font-size: 20px;
+}
+.three {
+  border: 3px solid skyblue;
+  padding: 10px;
+  background-color: rgba(170, 201, 211, 0.699);
+  border-radius: 10px;
+  flex-grow: 2;
+  font-size: 20px;
+  text-align: center;
 }
