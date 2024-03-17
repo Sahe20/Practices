@@ -235,7 +235,7 @@ h1 {
 .second {
   color: red;
 } */
-
+/* Nav bar
 nav > ul {
   display: flex;
   border: 2px solid;
@@ -262,4 +262,23 @@ nav > ul {
   flex-grow: 2;
   font-size: 20px;
   text-align: center;
+} */
+
+.container {
+  border: 2px solid;
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+.card-nocontent, .card-content {
+  border: 2px solid skyblue;
+  flex-grow: 1;
+  flex-basis: 0;
+  border-radius: 10px;
+}
+.card-content p, .card-nocontent p {
+  padding: 10px;
+}
+footer {
+  background-color: skyblue;
 }
