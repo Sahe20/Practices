@@ -11,7 +11,7 @@
     height: 100px;
     flex: 1;
 } */
-
+/* Creating & nesting multiple flex containers & item
 .main {
     border: 3px solid green;
     background-color: rgba(172, 252, 172, 0.623);
@@ -85,4 +85,4 @@
     background-color: peachpuff;
     border: 3px solid salmon;
     width: 100px;
-}
+} */
