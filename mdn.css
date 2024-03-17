@@ -272,12 +272,16 @@ nav > ul {
 }
 .card-nocontent, .card-content {
   border: 2px solid skyblue;
-  flex-grow: 1;
-  flex-basis: 0;
+  flex: 1;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
 }
 .card-content p, .card-nocontent p {
   padding: 10px;
+}
+.card-nocontent-p {
+  flex: 1;
 }
 footer {
   background-color: skyblue;
