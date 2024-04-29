@@ -294,3 +294,15 @@ footer {
   gap: 20px;
 }
  */
+
+ .box {
+  border: 1px solid;
+   padding: 20px;
+   display: flex;
+ }
+ .box > div {
+    background-color: skyblue;
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+ }
