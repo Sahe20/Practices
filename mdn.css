@@ -294,11 +294,11 @@ footer {
   gap: 20px;
 }
  */
-
+  /* display flex */
  .box {
   border: 1px solid;
-   padding: 20px;
    display: flex;
+   flex-direction: column;
  }
  .box > div {
     background-color: skyblue;
