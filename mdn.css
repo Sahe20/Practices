@@ -298,9 +298,8 @@ footer {
  .box {
   border: 1px solid;
    display: flex;
-   flex-direction: row;
    width: 650px;
-   flex-wrap: wrap;
+   flex-flow: row wrap;
  }
  .box > div {
     background-color: skyblue;
