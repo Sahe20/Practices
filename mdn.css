@@ -298,11 +298,16 @@ footer {
  .box {
   border: 1px solid;
    display: flex;
-   flex-direction: column;
+   flex-direction: row;
+   width: 650px;
+   flex-wrap: wrap;
  }
  .box > div {
     background-color: skyblue;
     border: 2px solid blue;
     border-radius: 5px;
     padding: 10px;
+    width: 300px;
+    flex-shrink: 0;
+    
  }
